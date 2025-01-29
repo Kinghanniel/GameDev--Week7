@@ -1,6 +1,6 @@
+using System.Collections;
 using GameDevWithMarco.Managers;
 using GameDevWithMarco.ObserverPattern;
-using System.Collections;
 using UnityEngine;
 
 namespace GameDevWithMarco.Player

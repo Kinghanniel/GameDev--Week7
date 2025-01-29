@@ -1,6 +1,5 @@
-using GameDevWithMarco.Data;
-using GameDevWithMarco.Singleton;
 using System.Collections;
+using GameDevWithMarco.Data;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 

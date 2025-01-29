@@ -1,5 +1,4 @@
 using GameDevWithMarco.Data;
-using GameDevWithMarco.Singleton;
 using TMPro;
 using UnityEngine;
 
@@ -10,7 +9,7 @@ namespace GameDevWithMarco.Managers
     {
 
         [SerializeField] TMP_Text scoreText;
-        [SerializeField] TMP_Text winScoreText; 
+        [SerializeField] TMP_Text winScoreText;
         [SerializeField] GlobalData globalData;
 
 

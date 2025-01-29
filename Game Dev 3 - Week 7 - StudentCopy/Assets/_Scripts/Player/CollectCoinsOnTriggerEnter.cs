@@ -1,5 +1,4 @@
 using GameDevWithMarco.Data;
-using GameDevWithMarco.Managers;
 using GameDevWithMarco.ObserverPattern;
 using GameDevWithMarco.RandomStuff;
 using UnityEngine;
@@ -30,7 +29,7 @@ namespace GameDevWithMarco
                     Debug.Log("global data no assigned to game manager");
                 }
 
-  
+
 
                 //destroys the coin
                 Destroy(collision.gameObject);

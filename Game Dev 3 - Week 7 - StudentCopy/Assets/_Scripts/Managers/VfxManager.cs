@@ -1,6 +1,5 @@
-using GameDevWithMarco.Singleton;
-using GameDevWithMarco.Data;
 using System.Collections;
+using GameDevWithMarco.Singleton;
 using UnityEngine;
 
 namespace GameDevWithMarco.Managers
@@ -13,7 +12,7 @@ namespace GameDevWithMarco.Managers
             StartCoroutine(HitStopCoroutine(stopDuration));
         }
 
-     
+
 
         //will stop the game for a set amount of time and then resume it
         IEnumerator HitStopCoroutine(float duration)
