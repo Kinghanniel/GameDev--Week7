@@ -2,13 +2,13 @@ using UnityEngine;
 
 namespace GameDevWithMarco.RandomStuff
 {
+    // Coin class represents a collectible coin with a specified value
     public class Coin : MonoBehaviour
     {
-        //give each coin a value
+        // The value of the coin, settable from the Unity Inspector
         [SerializeField] int coinValue;
 
-
-        // get coin value
+        // Public property to access the coin's value
         public int CoinValue
         {
             get
